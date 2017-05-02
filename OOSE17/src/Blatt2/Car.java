@@ -1,7 +1,7 @@
 package Blatt2;
 
 public class Car {
-	//asfasf
+	//ZU
 	private Delict[] delicts = new Delict[5];
 	private String licensePlate;
 	private String owner;
