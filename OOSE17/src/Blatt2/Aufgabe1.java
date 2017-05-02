@@ -31,11 +31,11 @@ public class Aufgabe1 {
 	}
 	
 	//Aufgabe 1a)
-	private static long fakultaet(long input){
-		if (input == 1){
-			return input;
+	private static long fakultaet(long n){
+		if (n == 1){
+			return n;
 		}else{
-			return input*fakultaet(input-1);
+			return n*fakultaet(n-1);
 		}
 	}
 	
