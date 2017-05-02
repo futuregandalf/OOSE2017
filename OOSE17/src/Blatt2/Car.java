@@ -1,7 +1,7 @@
 package Blatt2;
 
 public class Car {
-	
+	//Test
 	private Delict[] delicts = new Delict[5];
 	private String licensePlate;
 	private String owner;
@@ -25,7 +25,7 @@ public class Car {
 	public void printDelicts(){
 		for(int i = 0; i<5; i++){
 			if (delicts[i] != null){
-				System.out.println("Punkte: "+ delicts[i].getPoints() + " Gebühren:" + delicts[i].getFees());
+				System.out.println("Punkte: "+ delicts[i].getPoints() + " Gebï¿½hren:" + delicts[i].getFees());
 			}
 		}
 	}
