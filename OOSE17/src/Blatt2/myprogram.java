@@ -7,7 +7,7 @@ public class myprogram {
 		//Aufgabe3 f)
 		CarFactory cf = new CarFactory();
 		Car car1 = cf.buildCar("Max M.", "Kreuzbergweg 2");
-		Car car2 =cf.buildCar("Simon S.", "Roemerstraﬂe 164");
+		Car car2 =cf.buildCar("Simon S.", "Roemerstra√ºe 164");
 		TrafficOffice to1 = new TrafficOffice();
 		to1.registerCar(car1);
 		to1.registerCar(car2);
@@ -16,7 +16,7 @@ public class myprogram {
 		car2.registerDelict(new Delict(2, 48.5));
 		car2.registerDelict(new Delict(0, 20));
 		// Sollte K-LM 5135 und Simon S. ausgeben:
-		System.out.println("Delikte f¸r " + car2.getLicensePlate() + " (" + car2.getOwner() + "):");
+		System.out.println("Delikte f√ºr " + car2.getLicensePlate() + " (" + car2.getOwner() + "):");
 		// Sollte die zwei obigen Delikte ausgeben:
 		car2.printDelicts();
 	}

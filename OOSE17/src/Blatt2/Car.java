@@ -25,7 +25,7 @@ public class Car {
 	public void printDelicts(){
 		for(int i = 0; i<5; i++){
 			if (delicts[i] != null){
-				System.out.println("Punkte: "+ delicts[i].getPoints() + " Geb�hren:" + delicts[i].getFees());
+				System.out.println("Punkte: "+ delicts[i].getPoints() + " Gebühren:" + delicts[i].getFees());
 			}
 		}
 	}
