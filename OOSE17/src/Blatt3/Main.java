@@ -18,7 +18,7 @@ public class Main {
 		System.out.println(schaf1.toString());
 		System.out.println(schaf2.toString());
 		
-		// Begründung: Das zweite Schaf hat die Adresse das ersten Schafobjektes durch die Klone-Methode überreicht bekommen.
+		// Begründung: Das zweite Schaf hat die Adresse das ersten Schafobjektes durch die Clone-Methode überreicht bekommen.
 		// Somit ist es das selbe Objekt, alle Änderungen am zweiten Schaf betreffen auch das ersten und andersrum. Beide haben
 		// nämlich die selbe Adresse im Speicher!
 		
