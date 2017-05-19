@@ -1,3 +1,4 @@
+package Blatt4;
 
 public class Point {
 	int x,y;
